@@ -4,7 +4,7 @@ from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
 
 
-bot = telebot.TeleBot("8201752628:AAFk4hL-Eek_14k1iq7Or34ebs_F5o5nhnk")
+bot = telebot.TeleBot("SECRET_KEY")
     
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
